@@ -19,5 +19,6 @@ module Foo
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+    ES6ModuleTranspiler.add_prefix_pattern Regexp.new(File.join(Rails.root, 'app', 'assets', 'javascripts')), 'app'
   end
 end
