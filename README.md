@@ -9,7 +9,9 @@ This sample app uses
 
 ### Issues
 
-1. Can't figure out how to compile the templates. EAKR used the `barber` gem, but I'm not sure how to implement that yet.
+Main blocker to making this usable is figuring out how to
+precompile templates. See [issue #1](/issues/1)
+
 
 ### Set it up
 
