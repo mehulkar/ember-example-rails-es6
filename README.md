@@ -10,7 +10,7 @@ This sample app uses
 ### Issues
 
 Main blocker to making this usable is figuring out how to
-precompile templates. See [issue #1](/issues/1)
+precompile templates. See [issue #1](/../../issues/1)
 
 
 ### Set it up
