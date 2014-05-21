@@ -11,3 +11,12 @@ This sample app uses
 
 1. Can't figure out how to compile the templates. EAKR used the `barber` gem, but I'm not sure how to implement that yet.
 1. Ember modules don't seem to register with the App container. They are loading in the browser, but are not being used by the application.
+
+### Set it up
+
+Make sure Node and Ruby are installed.
+
+1. Clone
+1. `bundle install`
+1. `rails s`
+1. `open http://localhost:3000`
