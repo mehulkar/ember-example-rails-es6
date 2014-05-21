@@ -19,4 +19,4 @@
 //= require_tree ./models
 //= require_tree ./routes
 
-window.App = require('app').default.create();
+window.App = require('app/app').default.create();
