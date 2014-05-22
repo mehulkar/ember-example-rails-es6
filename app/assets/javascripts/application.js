@@ -18,5 +18,6 @@
 //= require_tree ./initializers
 //= require_tree ./models
 //= require_tree ./routes
+//= require_tree ./templates
 
 window.App = require('app/app').default.create();

@@ -20,5 +20,9 @@ module Foo
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
     ES6ModuleTranspiler.add_prefix_pattern Regexp.new(File.join(Rails.root, 'app', 'assets', 'javascripts')), 'app'
+
+    HandlebarsAssets::Config.ember = true # Not sure what this is doing, but it is recommended by gem docs
+
+    HandlebarsAssets::Config.template_namespace = 'Ember.TEMPLATES' # Default namespace is HandlebarsAssets
   end
 end

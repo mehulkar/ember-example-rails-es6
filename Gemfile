@@ -6,3 +6,4 @@ gem 'uglifier', '>= 1.3.0'
 gem 'es6_module_transpiler-rails'
 gem 'jquery-rails'
 gem 'sdoc', '~> 0.4.0',          group: :doc
+gem 'handlebars_assets'

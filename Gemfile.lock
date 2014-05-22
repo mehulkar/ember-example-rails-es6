@@ -33,6 +33,11 @@ GEM
     es6_module_transpiler-rails (0.3.0)
       execjs
     execjs (2.0.2)
+    handlebars_assets (0.15)
+      execjs (>= 1.2.9)
+      multi_json
+      sprockets (>= 2.0.3)
+      tilt
     hike (1.2.3)
     i18n (0.6.9)
     jquery-rails (3.1.0)
@@ -103,6 +108,7 @@ PLATFORMS
 
 DEPENDENCIES
   es6_module_transpiler-rails
+  handlebars_assets
   jquery-rails
   rails (= 4.1.0)
   sass-rails (~> 4.0.3)
