@@ -7,12 +7,6 @@ This sample app uses
 1. Stefan Penner's `ember-resolver` module for resolving Ember modules
 1. Stefan Penner's `ember-load-initializers` module to load initializers in app/assets/javascripts/initializers
 
-### Issues
-
-Main blocker to making this usable is figuring out how to
-precompile templates. See [issue #1](/../../issues/1)
-
-
 ### Set it up
 
 Make sure Node and Ruby are installed.
